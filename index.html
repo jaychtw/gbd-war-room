@@ -27,7 +27,7 @@ h2{font-weight:600;font-size:21px;letter-spacing:-.03em}
 .preview{height:110px;overflow:hidden;position:relative;color:var(--accent);background-color:#112022;background-image:linear-gradient(#47615e30 1px,transparent 1px),linear-gradient(90deg,#47615e30 1px,transparent 1px);background-size:23px 23px;border-bottom:1px solid var(--line)}
 .radar:before{content:"";position:absolute;left:48%;top:-64px;width:230px;height:230px;border-radius:50%;background:repeating-radial-gradient(transparent 0 24px,#83c2ae80 25px 26px,transparent 27px 30px),conic-gradient(from 210deg,transparent 20deg,#85ddac64 74deg,transparent 75deg)}
 .scope:before{content:"";position:absolute;inset:18% 6%;background:var(--accent);clip-path:polygon(0 63%,28% 63%,30% 54%,32% 71%,35% 12%,37% 89%,40% 55%,44% 63%,57% 63%,60% 42%,62% 70%,65% 23%,67% 77%,70% 62%,100% 62%,100% 65%,70% 65%,67% 82%,65% 34%,62% 75%,60% 48%,58% 66%,44% 66%,40% 60%,37% 96%,35% 27%,32% 78%,30% 59%,28% 66%,0 66%)}
-.detail{flex:1;display:flex;flex-direction:column;padding:22px}
+.echo{background-image:repeating-radial-gradient(ellipse at 64% 55%,#e3e5d0 0 3px,#879fa77a 4px 6px,transparent 7px 26px);background-color:#182a36}.detail{flex:1;display:flex;flex-direction:column;padding:22px}
 h3{font-size:clamp(24px,3.5vw,36px);letter-spacing:-.045em;line-height:1.15}
 .detail p{margin:12px 0 24px;color:var(--dim)}
 .open{margin-top:auto;padding-top:13px;border-top:1px solid var(--line);color:var(--accent);font-weight:650}.open span{font-size:21px}
@@ -42,6 +42,7 @@ footer{padding:26px 0 32px;color:var(--dim);font:12px monospace}
 <div class="grid">
 <a class="card" href="modules/night-watch/index.html"><div class="preview radar" aria-hidden="true"></div><div class="detail"><h3>Night Watch</h3><p><span class="en">Two returns cross the North Pacific. Decide when to warn Port Alder and which track merits your only interceptor.</span><span class="zh">兩個雷達回波正穿越北太平洋。決定何時警告奧德港，以及唯一一枚攔截彈該鎖定哪條航跡。</span></p><div class="open"><b class="en">Enter watch floor</b><b class="zh">進入值勤室</b><span aria-hidden="true">↗</span></div></div></a>
 <a class="card" href="modules/gbi-fire-control/index.html"><div class="preview scope" aria-hidden="true"></div><div class="detail"><h3>GBI Fire Control</h3><p><span class="en">Work the Sector 7 console. Separate the warhead from its decoys and complete a five-step launch sequence before reentry.</span><span class="zh">操作第七區火控台，在彈頭重返大氣層前辨識誘餌，完成五道發射程序。模組介面為英文。</span></p><div class="open"><b class="en">Enter fire control</b><b class="zh">進入火控室</b><span aria-hidden="true">↗</span></div></div></a>
+<a class="card" href="modules/after-the-flash/index.html"><div class="preview echo" aria-hidden="true"></div><div class="detail"><h3>After the Flash</h3><p><span class="en">A flash appears over the Pacific. Trace the reports to their sources and tell Port Alder whether its patients can leave shelter.</span><span class="zh">太平洋上空閃過一道亮光。核對觀測來源，回覆奧德港醫院的病患是否可以離開避難所。</span></p><div class="open"><b class="en">Enter assessment desk</b><b class="zh">進入攔截評估席</b><span aria-hidden="true">↗</span></div></div></a>
 </div></section></main>
 <footer><span class="en">Fictional defense simulation</span><span class="zh">虛構防禦演習</span></footer>
 <script>
